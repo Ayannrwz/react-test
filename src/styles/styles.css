@@ -18,7 +18,7 @@ i {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
@@ -32,3 +32,31 @@ button {
 button:disabled {
   cursor: not-allowed;
 }
+
+.die-container {
+  position: relative;
+}
+
+.car-with-dice {
+  position: relative;
+  display: inline-block;
+}
+
+.car-image {
+  width: 700px;
+  height: auto;
+}
+
+.dice-wrapper {
+  position: absolute;
+  display: flex;
+  top: 315px;
+  left: 45%; 
+  transform: translate(-50%, -50%);
+  margin-left: 95px;
+}
+
+.left-wheel{
+  margin-right: 195px;
+}
+
